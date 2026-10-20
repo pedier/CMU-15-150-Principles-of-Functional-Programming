@@ -1,0 +1,11 @@
+version = 1
+[workspace]
+root = "**/code/sources.mlb"
+[workspace.path-vars]
+ONEFIFTY_LIB = { workspace-path = "../lib" }
+[diagnostics]
+5030.severity = "error"
+5033.severity = "warning"
+5034.severity = "error"
+5035.severity = "warning"
+5036.severity = "ignore"

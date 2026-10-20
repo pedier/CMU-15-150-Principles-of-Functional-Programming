@@ -1,0 +1,5 @@
+version = 1
+[workspace]
+root = "code/sources.mlb"
+[workspace.path-vars]
+ONEFIFTY_LIB = { path = "lib" }

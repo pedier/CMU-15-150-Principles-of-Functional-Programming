@@ -1,0 +1,10 @@
+$(ONEFIFTY_LIB)/150basis/sources.mlb
+
+utils/listcps.sml
+utils/cnf.sml
+
+unitprop.sml
+dpll.sml
+
+utils/testing.sml
+tests.sml

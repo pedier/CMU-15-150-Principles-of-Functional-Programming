@@ -1,0 +1,21 @@
+#!/bin/bash
+
+SML="sml"
+
+[ -x "$(command -v rlwrap)" ] &&
+  SML="rlwrap $SML" ||
+  echo "WARNING: rlwrap not installed; keyboard movement will not be available."
+
+MOLASSES=SML
+MOLASSES_ARG=( "-m" "../../lib/intro150basis/sources.cm" "${@}" )
+# stops space from being a element delimiter which would break the mlb path var
+IFS=""
+[ -x "$(command -v molasses)" ] &&
+  MOLASSES="molasses" &&
+  MOLASSES_ARG=( "-mlb-path-var" "ONEFIFTY_LIB $(realpath ../../lib)" "-libmap" "../../lib/libmap" "-repl-cmd" "$SML" "--repl" "../../lib/intro150basis/sources.mlb" "${@}" ) ||
+  echo "WARNING: molasses is not installed; cannot use MLB files."
+
+exec \
+  env CM_LOCAL_PATHCONFIG=${CM_LOCAL_PATHCONFIG:-$(dirname "$0")/../../lib/pathconfig} \
+  env PRINT_DEPTH=${PRINT_DEPTH:-10} \
+  $MOLASSES ${MOLASSES_ARG[@]}

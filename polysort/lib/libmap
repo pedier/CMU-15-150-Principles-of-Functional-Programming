@@ -1,0 +1,10 @@
+ONEFIFTY_LIB
+$(ONEFIFTY_LIB)/150basis/core.mlb             $ONEFIFTY-LIB/150basis/core.cm
+$(ONEFIFTY_LIB)/color/sources.mlb             $ONEFIFTY-LIB/color/sources.cm
+$(ONEFIFTY_LIB)/game/sources.mlb              $ONEFIFTY-LIB/game/sources.cm
+$(ONEFIFTY_LIB)/new-game/sources.mlb          $ONEFIFTY-LIB/new-game/sources.cm
+$(ONEFIFTY_LIB)/lazylist/sources.mlb          $ONEFIFTY-LIB/lazylist/sources.cm
+$(ONEFIFTY_LIB)/matrix/sources.mlb            $ONEFIFTY-LIB/matrix/sources.cm
+$(ONEFIFTY_LIB)/sequence/sources.mlb          $ONEFIFTY-LIB/sequence/sources.cm
+$(ONEFIFTY_LIB)/set/sources.mlb               $ONEFIFTY-LIB/set/sources.cm
+$(ONEFIFTY_LIB)/stream/sources.mlb            $ONEFIFTY-LIB/stream/sources.cm

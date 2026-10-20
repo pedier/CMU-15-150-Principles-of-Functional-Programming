@@ -1,0 +1,10 @@
+$(SML_LIB)/smlnj-lib/Util/smlnj-lib.mlb
+$(ONEFIFTY_LIB)/150basis/core.mlb
+
+MakeString.sig
+MakeString.sml
+
+Test.sig
+Test.sml
+
+Combinator.sml

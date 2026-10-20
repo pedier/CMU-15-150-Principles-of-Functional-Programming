@@ -1,0 +1,14 @@
+$(ONEFIFTY_LIB)/150basis/sources.mlb
+
+feast/cuisine/CUISINE1.sig
+feast/cuisine/CUISINE2.sig
+feast/cuisine/Cuisine.sml
+
+feast/potatoes/MkPotatoes.fun
+feast/potatoes/MashedPotatoes.sml
+
+feast/ham/Ham.sml
+
+feast/pie/PIE1.sig
+feast/pie/PIE2.sig
+feast/pie/Pie.sml

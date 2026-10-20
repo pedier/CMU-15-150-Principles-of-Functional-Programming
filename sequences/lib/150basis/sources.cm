@@ -1,0 +1,14 @@
+Library
+  library(core.cm)
+
+  structure MakeString
+  structure Test
+is
+  core.cm
+  $/smlnj-lib.cm
+
+  MakeString.sig
+  MakeString.sml
+
+  Test.sig
+  Test.sml

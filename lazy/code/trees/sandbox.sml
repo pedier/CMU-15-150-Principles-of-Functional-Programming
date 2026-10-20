@@ -1,0 +1,1 @@
+(* write your tests for map and preOrd here! *)

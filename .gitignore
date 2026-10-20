@@ -1,0 +1,32 @@
+# Local workspace and editor files
+.idea/
+.vscode/
+AGENTS.md
+.agents/
+.codex/
+*~
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# SML compilation caches; .cm build-description files are retained
+.cm/
+.mlb-build/
+*.o
+*.heap
+*.x86-linux
+*.amd64-linux
+
+# Duplicate handin archives and unfilled written-answer templates
+*.tar
+*.tgz
+*.zip
+written/
+*_lab/
+
+# Empty output files produced during module exercises
+/modules/code/string
+/modules/code/types/string
+/modules/code/types/Boiled Ham
+/modules/code/types/Ham.show

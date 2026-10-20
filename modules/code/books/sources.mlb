@@ -1,0 +1,8 @@
+$(ONEFIFTY_LIB)/150basis/sources.mlb
+book/sources.mlb
+test/sources.mlb
+student/sources.mlb
+adv-student/sources.mlb
+reader/sources.mlb
+Find150.sml
+sandbox.sml
